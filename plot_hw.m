@@ -21,7 +21,7 @@ figure;
 plot(x_d, y_d, 'b', 'LineWidth', 1.5); hold on;
 plot(x_vehicle, y_vehicle, 'r', 'LineWidth', 1.5);
 xlabel('X(m)'); ylabel('Y(m)');
-title('Stanley Control');
+title('LQR');
 legend('Road', 'Vehiclepath');
 grid on;
 xlim([0 100]); ylim([0 60]);
